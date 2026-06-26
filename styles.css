@@ -553,20 +553,5 @@ th {
 
 
 
-/* Для маленьких экранов — принудительный перенос в ячейках таблиц */
-@media (max-width: 767px) {
-    .sub-accordion-content th,
-    .sub-accordion-content td,
-    .container th,
-    .container td {
-        word-break: break-word !important;
-        word-wrap: break-word !important;
-        white-space: normal !important;
-        max-width: 100px; /* или другое значение, подходящее для вашего дизайна */
-    }
-    .sub-accordion-content th,
-    .container th {
-        white-space: normal !important;
-    }
-}
+
 
