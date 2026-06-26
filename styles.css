@@ -549,6 +549,23 @@ th {
 
 
 
+/* ===== ИСПРАВЛЕНИЕ ВЫХОДА ЗА ЭКРАН НА МОБИЛЬНЫХ ===== */
+/* Ограничиваем ширину всех контейнеров */
+.container,
+.content-wrapper,
+.page-content,
+.app-container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
 
 
 
