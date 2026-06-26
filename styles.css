@@ -549,13 +549,7 @@ th {
 
 
 
-/* Принудительный перенос длинных слов в заголовках аккордеона */
-.sub-accordion-header,
-.accordion-header {
-    word-break: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-}
+
 
 
 
